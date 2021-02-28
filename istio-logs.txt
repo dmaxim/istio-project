@@ -1,0 +1,4 @@
+{"protocol":"HTTP/1.1","downstream_remote_address":"10.1.0.75:6037","duration":0,"upstream_host":null,"route_name":null,"x_forwarded_for":"10.1.0.75","requested_server_name":null,"start_time":"2021-02-28T22:13:32.134Z","user_agent":null,"upstream_service_time":null,"connection_termination_details":null,"authority":"","response_code_details":"route_not_found","upstream_local_address":null,"method":"GET","upstream_cluster":null,"request_id":"bdef1a7d-73cd-4021-9218-7403f191ae95","bytes_sent":0,"response_flags":"NR","upstream_transport_failure_reason":null,"path":"/jmx-console/","bytes_received":0,"downstream_local_address":"10.1.0.108:8080","response_code":404}
+
+
+The request was not proxied to the frontend service as demonstrated by the route not found and the null upstream address.
